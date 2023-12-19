@@ -1,78 +1,122 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Documentation culture générale",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.png",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#9563FF",
+    "light": "#AE87FF",
+    "dark": "#0D001D",
+    "background": {
+      "dark": "#090014"
+    },
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#FF7F57",
+      "to": "#9563FF"
     }
   },
-  "topbarLinks": [
-    {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+  "api": {
+    "playground": {
+      "mode": "hide"
     }
-  ],
-  "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "name": "Contrat de travail",
+      "url": "contrat-de-travail"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "name": "Paix du travail",
+      "url": "paix-du-travail"
     },
     {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "name": "Argumentation",
+      "url": "argumentation"
+    },
+    {
+      "name": "Travail flexible",
+      "url": "travail-flexible"
+    },
+    {
+      "name": "LAMal et LAA",
+      "url": "lamal-et-laa"
     }
   ],
   "navigation": [
     {
-      "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
-    },
-    {
-      "group": "Essentials",
-      "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
-    },
-    {
-      "group": "API Documentation",
-      "pages": ["api-reference/introduction"]
-    },
-    {
-      "group": "Endpoint Examples",
+      "group": "Contrat de travail",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "contrat-de-travail/rappel",
+        "contrat-de-travail/definition",
+        "contrat-de-travail/obligations-durees",
+        "contrat-de-travail/resiliations"
+      ]
+    },
+    {
+      "group": "CCT",
+      "pages": [
+        "paix-du-travail/cct/paix-du-travail",
+        "paix-du-travail/cct/definition",
+        "paix-du-travail/cct/categories"
+      ]
+    },
+    {
+      "group": "Syndicats",
+      "pages": [
+        "paix-du-travail/syndicats/definition",
+        "paix-du-travail/syndicats/loi"
+      ]
+    },
+    {
+      "group": "Argumentation",
+      "pages": [
+        "argumentation/introduction",
+        "argumentation/definition",
+        "argumentation/rappel",
+        "argumentation/problem",
+        "argumentation/steps",
+        "argumentation/help"
+      ]
+    },
+    {
+      "group": "Travail flexible",
+      "pages": [
+        "travail-flexible/temps-partiel",
+        "travail-flexible/auxiliaire",
+        "travail-flexible/sur-appel",
+        "travail-flexible/temporaire"
+      ]
+    },
+    {
+      "group": "Rappel 💀",
+      "pages": ["lamal-et-laa/rappel/rappel"]
+    },
+    {
+      "group": "LAMal",
+      "pages": [
+        "lamal-et-laa/lamal/definition",
+        "lamal-et-laa/lamal/caracteristiques",
+        "lamal-et-laa/lamal/fonctionnement"
+      ]
+    },
+    {
+      "group": "LAA",
+      "pages": [
+        "lamal-et-laa/laa/definition",
+        "lamal-et-laa/laa/caracteristiques"
+      ]
+    },
+    {
+      "group": "Voc",
+      "pages": [
+        "lamal-et-laa/voc/voc"
       ]
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "github": "https://github.com/Matthiasbrat/docs"
   }
 }
