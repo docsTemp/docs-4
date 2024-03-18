@@ -26,94 +26,94 @@
   "tabs": [
     {
       "name": "Contrat de travail",
-      "url": "contrat-de-travail"
+      "url": "4/contrat-de-travail"
     },
     {
       "name": "Paix du travail",
-      "url": "paix-du-travail"
+      "url": "4/paix-du-travail"
     },
     {
       "name": "Argumentation",
-      "url": "argumentation"
+      "url": "4/argumentation"
     },
     {
       "name": "Travail flexible",
-      "url": "travail-flexible"
+      "url": "4/travail-flexible"
     },
     {
       "name": "LAMal et LAA",
-      "url": "lamal-et-laa"
+      "url": "4/lamal-et-laa"
     }
   ],
   "navigation": [
     {
       "group": "Contrat de travail",
       "pages": [
-        "contrat-de-travail/rappel",
-        "contrat-de-travail/definition",
-        "contrat-de-travail/obligations-durees",
-        "contrat-de-travail/resiliations"
+        "4/contrat-de-travail/rappel",
+        "4/contrat-de-travail/definition",
+        "4/contrat-de-travail/obligations-durees",
+        "4/contrat-de-travail/resiliations"
       ]
     },
     {
       "group": "CCT",
       "pages": [
-        "paix-du-travail/cct/paix-du-travail",
-        "paix-du-travail/cct/definition",
-        "paix-du-travail/cct/categories"
+        "4/paix-du-travail/cct/paix-du-travail",
+        "4/paix-du-travail/cct/definition",
+        "4/paix-du-travail/cct/categories"
       ]
     },
     {
       "group": "Syndicats",
       "pages": [
-        "paix-du-travail/syndicats/definition",
-        "paix-du-travail/syndicats/loi"
+        "4/paix-du-travail/syndicats/definition",
+        "4/paix-du-travail/syndicats/loi"
       ]
     },
     {
       "group": "Argumentation",
       "pages": [
-        "argumentation/introduction",
-        "argumentation/definition",
-        "argumentation/rappel",
-        "argumentation/problem",
-        "argumentation/steps",
-        "argumentation/help"
+        "4/argumentation/introduction",
+        "4/argumentation/definition",
+        "4/argumentation/rappel",
+        "4/argumentation/problem",
+        "4/argumentation/steps",
+        "4/argumentation/help"
       ]
     },
     {
       "group": "Travail flexible",
       "pages": [
-        "travail-flexible/temps-partiel",
-        "travail-flexible/auxiliaire",
-        "travail-flexible/sur-appel",
-        "travail-flexible/temporaire"
+        "4/travail-flexible/temps-partiel",
+        "4/travail-flexible/auxiliaire",
+        "4/travail-flexible/sur-appel",
+        "4/travail-flexible/temporaire"
       ]
     },
     {
       "group": "Rappel 💀",
-      "pages": ["lamal-et-laa/rappel/rappel"]
+      "pages": ["4/lamal-et-laa/rappel/rappel"]
     },
     {
       "group": "LAMal",
       "pages": [
-        "lamal-et-laa/lamal/definition",
-        "lamal-et-laa/lamal/caracteristiques",
-        "lamal-et-laa/lamal/fonctionnement"
+        "4/lamal-et-laa/lamal/definition",
+        "4/lamal-et-laa/lamal/caracteristiques",
+        "4/lamal-et-laa/lamal/fonctionnement"
       ]
     },
     {
       "group": "LAA",
       "pages": [
-        "lamal-et-laa/laa/definition",
-        "lamal-et-laa/laa/caracteristiques"
+        "4/lamal-et-laa/laa/definition",
+        "4/lamal-et-laa/laa/caracteristiques"
       ]
     },
     {
       "group": "Voc",
       "pages": [
-        "lamal-et-laa/voc/voc"
-      ]
+        "4/lamal-et-laa/voc/voc"
+        ]
     }
   ],
   "footerSocials": {
